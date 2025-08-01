@@ -9,7 +9,7 @@ on:
 
 jobs:
   build:
-    runs-on: ubuntu-latest-arm
+    runs-on: arm-ubuntu-24
 
     steps:
     #Setting up environment
