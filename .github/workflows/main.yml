@@ -50,7 +50,7 @@ jobs:
       # Build the Docker Image
       - name: Build Docker Image
         run: |
-          docker build . -t mmccarthy/demo-app:${{ env.VERSION }} --platform=linux/arm64
+          docker build . -t mmccarthy/demo-app:${{ env.VERSION }}
 
       # Push the Docker Image
       - name: Push Docker Image
